@@ -65,4 +65,3 @@ def calculator_input(value: str):
 def calculation_clear(length: int):
     for i in range(0, length):
         webdriver.find_element("id", "com.android.calculator2:id/del").click()
-
